@@ -1,0 +1,5 @@
+if (${ADS_TESTS})
+    option(BUILD_GMOCK "" OFF)
+    option(INSTALL_GTEST "" OFF)
+    add_subdirectory(gtest)
+endif()
