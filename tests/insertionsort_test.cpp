@@ -4,7 +4,7 @@
 
 TEST(SortTests, InsertionSort)
 {
-	static constexpr int kTestSize = 1'000'000;
+	static constexpr int kTestSize = 1'000;
 	std::vector<int> Arr(kTestSize);
 	for (int i = 0; i < kTestSize; i++)
 	{
